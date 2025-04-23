@@ -113,7 +113,7 @@ Saída: 5
 Para demonstrar não-equivalência, modificamos o programa monolítico para começar com valores diferentes:
 
 ```c
-int fibonacci_mono_modificado(int n) {
+int fibonacci_mono(int n) {
     int a = 1;  // modificado de 0 para 1
     int b = 1;
     int i = 1;
