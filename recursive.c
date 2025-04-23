@@ -24,7 +24,7 @@ int main() {
     printf("Insira um número: ");
     scanf("%d", &num);
     
-    int fibo = fibonacci(num);
+    int fibo = fibonacci_rec(num);
     
     printf("Fibonacci(%d) = %d\n", num, fibo);
     

@@ -39,7 +39,7 @@ int main() {
     scanf("%d", &num);
 
     printf("Sequência de Fibonacci até o termo %d:\n", num);
-    int fibo = fibonacci(num);
+    int fibo = fibonacci_mono(num);
     
     printf("fibonacci(%d) = %d\n", num, fibo);
     
