@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fibonacci(int n) {
+int fibonacci_it(int n) {
     if (n == 0) {
         printf("0 \n");
         return 0;

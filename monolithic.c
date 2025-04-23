@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fibonacci(int n) {
+int fibonacci_mono(int n) {
     int a = 0;
     int b = 1;
     int i = 1;

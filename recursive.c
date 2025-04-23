@@ -7,7 +7,7 @@ int fib_calc(int n) {
     return fib_calc(n-1) + fib_calc(n-2);
 }
 
-int fibonacci(int n) {
+int fibonacci_rec(int n) {
     printf("Sequência de Fibonacci até o termo %d:\n", n);
     
     for (int i = 0; i <= n; i++) {
