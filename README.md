@@ -131,8 +131,8 @@ Para n = 0:
 - Algoritmo modificado: 1
 
 Para n = 5:
-- Algoritmos originais: 5
-- Algoritmo modificado: 8
+- Algoritmos originais: 3
+- Algoritmo modificado: 5
 
 Isto demonstra que os programas não são equivalentes.
 
