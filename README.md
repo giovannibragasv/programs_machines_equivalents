@@ -113,7 +113,7 @@ Saída: 5
 Para demonstrar não-equivalência, modificamos o programa monolítico para começar com valores diferentes:
 
 ```c
-int fibonacci_mono_modificado(int n) {
+int fibonacci_mono(int n) {
     int a = 1;  // modificado de 0 para 1
     int b = 1;
     int i = 1;
@@ -131,8 +131,8 @@ Para n = 0:
 - Algoritmo modificado: 1
 
 Para n = 5:
-- Algoritmos originais: 5
-- Algoritmo modificado: 8
+- Algoritmos originais: 3
+- Algoritmo modificado: 5
 
 Isto demonstra que os programas não são equivalentes.
 
