@@ -17,7 +17,7 @@ int fibonacci_it(int n) {
     
     printf("%d %d ", a, b);
     
-    for (int i = 2; i <= n; i++) {
+    for (int i = 3; i <= n; i++) {
         resultado = a + b;
         printf("%d ", resultado);
         a = b;

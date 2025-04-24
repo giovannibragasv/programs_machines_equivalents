@@ -10,12 +10,12 @@ int fib_calc(int n) {
 int fibonacci_rec(int n) {
     printf("Sequência de Fibonacci até o termo %d:\n", n);
     
-    for (int i = 0; i <= n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("%d ", fib_calc(i));
     }
     printf("\n");
     
-    return fib_calc(n);
+    return fib_calc(n-1);
 }
 
 int main() {
